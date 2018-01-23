@@ -14,5 +14,9 @@ request.get('https://sytantris.github.io/http-examples/future.jpg')             
        })
        .pipe(fs.createWriteStream('./downloaded.html'));
 
+       // .on('end', function (response) {
+       //  console.log('End of writable stream.');
+       // })
+
 
 
